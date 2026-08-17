@@ -4,14 +4,15 @@
 
 # tracefold
 
-**The inverse is sealed before the action.**
+**Undo is a feature. Reversibility is a property.**
 
-Anyone can check it afterwards — offline, and without trusting whoever issued it.
+The inverse is sealed **before it lands**. Anyone can check it afterwards — offline,
+and without trusting whoever issued it.
 
 <p>
-<a href="https://github.com/TraceFold/tracefold"><img alt="repository" src="https://img.shields.io/badge/repository-0b0a09?style=for-the-badge&labelColor=0b0a09&logo=github&logoColor=ece7da"></a>
-<a href="https://github.com/TraceFold/tracefold/blob/main/docs/TRACEFOLD_TR.md"><img alt="technical report" src="https://img.shields.io/badge/technical%20report-0b0a09?style=for-the-badge&labelColor=0b0a09"></a>
-<a href="#read-this-part-first"><img alt="the limits first" src="https://img.shields.io/badge/the%20limits%20first-0b0a09?style=for-the-badge&labelColor=0b0a09"></a>
+<a href="https://github.com/TraceFold/tracefold"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/repository-ece7da?style=for-the-badge&labelColor=ece7da&logo=github&logoColor=0b0a09"><img alt="repository" src="https://img.shields.io/badge/repository-0b0a09?style=for-the-badge&labelColor=0b0a09&logo=github&logoColor=ece7da"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/blob/main/docs/TRACEFOLD_TR.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/technical%20report-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="technical report" src="https://img.shields.io/badge/technical%20report-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
+<a href="#read-this-part-first"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20limits%20first-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the limits first" src="https://img.shields.io/badge/the%20limits%20first-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
 </p>
 
 <p>
