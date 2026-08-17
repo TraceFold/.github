@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="" width="900">
+
 # tracefold
 
 **The inverse is sealed before the action.**
