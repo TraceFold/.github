@@ -1,19 +1,20 @@
 <div align="center">
 
-<img src="banner.png" alt="Tracefold" width="900">
+# tracefold
 
-<br>
-
-### The inverse is sealed before the action.
+**The inverse is sealed before the action.**
 
 Anyone can check it afterwards — offline, and without trusting whoever issued it.
 
-<br>
+[![repository](https://img.shields.io/badge/repository-0b0a09?style=for-the-badge&labelColor=0b0a09&logo=github&logoColor=ece7da)](https://github.com/TraceFold/tracefold)
+[![rust](https://img.shields.io/badge/rust-0b0a09?style=for-the-badge&labelColor=0b0a09&logo=rust&logoColor=ece7da)](https://github.com/TraceFold/tracefold)
+[![technical report](https://img.shields.io/badge/technical%20report-0b0a09?style=for-the-badge&labelColor=0b0a09)](https://github.com/TraceFold/tracefold/blob/main/docs/TRACEFOLD_TR.md)
+[![the limits first](https://img.shields.io/badge/the%20limits%20first-0b0a09?style=for-the-badge&labelColor=0b0a09)](#read-this-part-first)
 
-[Repository](https://github.com/TraceFold/tracefold) &nbsp;·&nbsp;
-[Limits](#read-this-part-first) &nbsp;·&nbsp;
-[Where it stands](#where-it-stands) &nbsp;·&nbsp;
-[Technical report](https://github.com/TraceFold/tracefold/blob/main/docs/TRACEFOLD_TR.md)
+![github/license/TraceFold/tracefold](https://img.shields.io/github/license/TraceFold/tracefold?style=flat-square&color=0b0a09&labelColor=0b0a09)
+![github/last-commit/TraceFold/tracefold](https://img.shields.io/github/last-commit/TraceFold/tracefold?style=flat-square&color=0b0a09&labelColor=0b0a09)
+![crates/v/tracefold](https://img.shields.io/crates/v/tracefold?style=flat-square&color=0b0a09&labelColor=0b0a09&logo=rust&logoColor=ece7da)
+![npm/v/tracefold](https://img.shields.io/npm/v/tracefold?style=flat-square&color=0b0a09&labelColor=0b0a09&logo=npm&logoColor=ece7da)
 
 </div>
 
@@ -46,6 +47,12 @@ enforces it — the limits are not prose someone remembered to update.
 
 Numbers without the right-hand column are decoration. That column is why this table is
 wider than it looks like it needs to be.
+
+## What is deliberately not shown
+
+No build badge: continuous integration is switched off, and a green tick would be a lie.
+No download counts and no star totals, because neither measures whether the thing works.
+Every figure above can be re-derived from the repository.
 
 ## Built by
 
