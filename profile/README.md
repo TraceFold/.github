@@ -61,4 +61,4 @@ Every figure above can be re-derived from the repository by someone who does not
 
 ## Built by
 
-[Glovrex](https://glovrex.com) · Apache-2.0
+[Glovrex](https://glovrex.com)
