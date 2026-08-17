@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TraceFold/tracefold/main/assets/brand/hero-glovrex.png" alt="Tracefold" width="820">
+<img src="https://raw.githubusercontent.com/TraceFold/tracefold/main/assets/brand/banner-tracefold.png" alt="Tracefold" width="900">
 
 <br>
 
