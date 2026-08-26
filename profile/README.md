@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="" width="900">
+<a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="tracefold" width="900"></a>
 
 # tracefold
 
@@ -13,12 +13,16 @@ without trusting whoever issued it.
 <a href="https://github.com/TraceFold/tracefold"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/repository-ece7da?style=for-the-badge&labelColor=ece7da&logo=github&logoColor=0b0a09"><img alt="repository" src="https://img.shields.io/badge/repository-0b0a09?style=for-the-badge&labelColor=0b0a09&logo=github&logoColor=ece7da"></picture></a>
 <a href="https://github.com/TraceFold/tracefold/blob/main/docs/TRACEFOLD_TR.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/technical%20report-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="technical report" src="https://img.shields.io/badge/technical%20report-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
 <a href="#read-this-part-first"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20limits%20first-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the limits first" src="https://img.shields.io/badge/the%20limits%20first-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
+<a href="https://tracefold.github.io/tracefold/verify.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/check%20a%20receipt%20in%20your%20browser-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="check a receipt in your browser" src="https://img.shields.io/badge/check%20a%20receipt%20in%20your%20browser-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
+<a href="https://github.com/TraceFold/tracefold/tree/main/gui"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/the%20window-ece7da?style=for-the-badge&labelColor=ece7da"><img alt="the window: a GUI over the engine" src="https://img.shields.io/badge/the%20window-0b0a09?style=for-the-badge&labelColor=0b0a09"></picture></a>
+<a href="https://discord.gg/rtvXqYEQzr"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/discord-ece7da?style=for-the-badge&labelColor=ece7da&logo=discord&logoColor=0b0a09"><img alt="discord" src="https://img.shields.io/badge/discord-0b0a09?style=for-the-badge&labelColor=0b0a09&logo=discord&logoColor=ece7da"></picture></a>
 </p>
 
 <p>
 <a href="https://github.com/TraceFold/tracefold/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/github/license/TraceFold/tracefold?style=flat-square&color=0b0a09&labelColor=0b0a09"></a>
 <a href="https://github.com/TraceFold/tracefold/commits/main"><img alt="last commit" src="https://img.shields.io/github/last-commit/TraceFold/tracefold?style=flat-square&color=0b0a09&labelColor=0b0a09"></a>
 <a href="https://github.com/TraceFold/tracefold"><img alt="language" src="https://img.shields.io/github/languages/top/TraceFold/tracefold?style=flat-square&color=0b0a09&labelColor=0b0a09"></a>
+<a href="https://www.npmjs.com/package/@mahirhir/tracefold"><img alt="npm: @mahirhir/tracefold" src="https://img.shields.io/npm/v/%40mahirhir%2Ftracefold?style=flat-square&color=0b0a09&labelColor=0b0a09&logo=npm&logoColor=ece7da&label=%40mahirhir%2Ftracefold"></a>
 </p>
 
 </div>
@@ -70,15 +74,21 @@ Numbers without the right-hand column are decoration. That column is why the tab
 than it looks like it needs to be. Every figure here matches the repository README, and the
 commands that produce them are printed there rather than described.
 
-**Not released.** The names on crates.io and npm are reservations holding the name, and
-installing either gets you nothing. What runs today is a build from source.
+**Not released.** The `gx` names on crates.io and the bare `tracefold` name on npm are
+reservations holding the name, and installing either gets you nothing. What runs today is a build
+from source.
+
+One exception, because it is real: **[`@mahirhir/tracefold`](https://www.npmjs.com/package/@mahirhir/tracefold)**
+is the TypeScript SDK, published and Apache-2.0, and it carries offline receipt verification. It
+checks receipts; it does not produce them, and it is not the CLI.
 
 ## What is deliberately absent
 
 No build badge, because continuous integration is switched off and a green tick would be a
 lie. No download counts and no star totals, because neither measures whether the thing works.
-No package version badges, because the packages behind them are empty placeholders and a
-version number would read as a release. Every figure above can be re-derived from the
+No crates.io version badge, because those crates are name reservations and a version number
+would read as a release. The npm badge above is the scoped SDK, which is published; the bare
+`tracefold` name on npm is not ours to point at. Every figure above can be re-derived from the
 repository by someone who does not trust us.
 
 ## Built by
