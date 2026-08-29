@@ -2,24 +2,20 @@
 
 <a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="tracefold" width="900"></a>
 
-# TraceFold
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=00DFD8&background=0B0A0900&center=true&vCenter=true&width=650&lines=Autonomous+AI+Agent+Reversibility+Substrate;Holding+the+Checked+Inverse+Before+Actions+Land;Tamper-Evident+Receipts+Verifiable+Offline" alt="TraceFold Tagline" />
 
-### Autonomous AI Agent Reversibility & Verifiable Provenance Substrate
-
-**Undo is a feature. Reversibility is a property.**
-
-The checked inverse is sealed **before actions land**. Anyone can verify the verdict afterwards, offline, without trusting whoever issued it.
-
-[![Repository](https://img.shields.io/badge/Repository-TraceFold%2Ftracefold-181614?style=flat-square&logo=github&logoColor=ece7da)](https://github.com/TraceFold/tracefold)
-[![Browser Verifier](https://img.shields.io/badge/Verifier-Offline%20WASM-26231f?style=flat-square)](https://tracefold.github.io/tracefold/verify.html)
-[![npm SDK](https://img.shields.io/npm/v/@mahirhir/tracefold?style=flat-square&color=4a3e31&label=npm%20SDK)](https://www.npmjs.com/package/@mahirhir/tracefold)
-[![Discord](https://img.shields.io/badge/Community-Discord-3a3128?style=flat-square&logo=discord&logoColor=ece7da)](https://discord.gg/rtvXqYEQzr)
+<p>
+<a href="https://github.com/TraceFold/tracefold"><img src="https://img.shields.io/badge/Repository-TraceFold%2Ftracefold-7928ca?style=for-the-badge&logo=github&logoColor=ffffff" alt="TraceFold Repo"></a>
+<a href="https://tracefold.github.io/tracefold/verify.html"><img src="https://img.shields.io/badge/Verifier-Zero%20Network%20WASM-00dfd8?style=for-the-badge&logo=webassembly&logoColor=090a0f" alt="Browser Verifier"></a>
+<a href="https://www.npmjs.com/package/@mahirhir/tracefold"><img src="https://img.shields.io/badge/npm-SDK%20v0.1-0070f3?style=for-the-badge&logo=npm&logoColor=ffffff" alt="npm SDK"></a>
+<a href="https://discord.gg/rtvXqYEQzr"><img src="https://img.shields.io/badge/Community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=ffffff" alt="Discord"></a>
+</p>
 
 </div>
 
 ---
 
-### The Paradigm Shift
+### The Paradigm Shift: Pre-Fact Provenance
 
 | Dimension | Traditional Post-Hoc Audit Logs | TraceFold Pre-Fact Provenance |
 | :--- | :--- | :--- |
@@ -32,14 +28,32 @@ ightarrow$ **Action lands** |
 
 ---
 
-### Ecosystem Components
+### Ecosystem Architecture
 
-| Module | Role & Specification | Tech Stack | Status |
-| :--- | :--- | :--- | :---: |
-| **[`TraceFold Core`](https://github.com/TraceFold/tracefold)** | Runtime substrate, state containment gate, and CLI | Rust 1.97.1 | Core Engine |
-| **[`@mahirhir/tracefold`](https://www.npmjs.com/package/@mahirhir/tracefold)** | Offline receipt verifier (0 network calls) | TypeScript / WASM | Published (Apache-2.0) |
-| **[`gui/`](https://github.com/TraceFold/tracefold/tree/main/gui)** | Local-first visual trace inspector | Desktop UI | Operational |
-| **[`lean/`](https://github.com/TraceFold/tracefold/tree/main/lean)** | 117 machine-checked algebraic theorems | Lean 4 (`sorry` 0) | Mathematically Proven |
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<h4>⚡ <a href="https://github.com/TraceFold/tracefold">TraceFold Core Engine</a></h4>
+<p>Rust runtime substrate, state containment gate, and CLI.</p>
+<code>cargo build --workspace</code>
+</td>
+<td width="50%" valign="top">
+<h4>📦 <a href="https://www.npmjs.com/package/@mahirhir/tracefold">TypeScript / WASM SDK</a></h4>
+<p>Offline receipt verifier package. Zero network calls, browser & Node.js ready.</p>
+<code>npm i @mahirhir/tracefold</code>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4>🖥️ <a href="https://github.com/TraceFold/tracefold/tree/main/gui">The Window (GUI)</a></h4>
+<p>Local-first visual inspector over execution traces, checkpoints, and receipts.</p>
+</td>
+<td width="50%" valign="top">
+<h4>📐 <a href="https://github.com/TraceFold/tracefold/tree/main/lean">Lean 4 Formal Specifications</a></h4>
+<p>117 machine-checked theorems certifying algebraic reversibility and boundaries.</p>
+</td>
+</tr>
+</table>
 
 ---
 
