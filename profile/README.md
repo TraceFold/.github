@@ -15,53 +15,49 @@
 
 ---
 
-### The Paradigm Shift: Pre-Fact Provenance
+### Mission & Core Philosophy
 
-| Dimension | Traditional Post-Hoc Audit Logs | TraceFold Pre-Fact Provenance |
-| :--- | :--- | :--- |
-| **Execution Order** | Action executes first $
-ightarrow$ Logged afterwards | Inverse constructed & checked $
-ightarrow$ **Action lands** |
-| **Irreversible Damage** | Discovered only after system corruption | **Blocked at the gate**; escalates to human approval |
-| **Verification Trust** | Must trust the host/server that produced the log | **Zero-trust offline verification** via standalone WASM |
-| **Verdict Precision** | Binary (Pass/Fail) conflates errors with attacks | **Tri-state**: `Verified`, `Refuted`, `Unknown/Unparseable` |
+> **Undo is a feature. Reversibility is a property.**
+
+TraceFold is an open-source security substrate that seals a checked inverse **before** an autonomous AI agent's change lands. Every verdict becomes a tamper-evident cryptographic receipt verifiable offline by third parties with zero network trust.
 
 ---
 
-### Ecosystem Architecture
+### Ecosystem & Components
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
 <h4>⚡ <a href="https://github.com/TraceFold/tracefold">TraceFold Core Engine</a></h4>
-<p>Rust runtime substrate, state containment gate, and CLI.</p>
+<p>Runtime substrate in Rust. Enforces deterministic approval gates, inverse construction, and CLI tools.</p>
 <code>cargo build --workspace</code>
 </td>
 <td width="50%" valign="top">
-<h4>📦 <a href="https://www.npmjs.com/package/@mahirhir/tracefold">TypeScript / WASM SDK</a></h4>
-<p>Offline receipt verifier package. Zero network calls, browser & Node.js ready.</p>
+<h4>📦 <a href="https://www.npmjs.com/package/@mahirhir/tracefold">@mahirhir/tracefold (npm SDK)</a></h4>
+<p>Standalone TypeScript / WebAssembly offline receipt verifier. Published under Apache-2.0 on npm.</p>
 <code>npm i @mahirhir/tracefold</code>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <h4>🖥️ <a href="https://github.com/TraceFold/tracefold/tree/main/gui">The Window (GUI)</a></h4>
-<p>Local-first visual inspector over execution traces, checkpoints, and receipts.</p>
+<p>Local-first visual inspector over execution traces, state checkpoints, and inclusion receipts.</p>
 </td>
 <td width="50%" valign="top">
 <h4>📐 <a href="https://github.com/TraceFold/tracefold/tree/main/lean">Lean 4 Formal Specifications</a></h4>
-<p>117 machine-checked theorems certifying algebraic reversibility and boundaries.</p>
+<p>117 machine-checked algebraic theorems proving effect containment with 0 <code>sorry</code> assertions.</p>
 </td>
 </tr>
 </table>
 
 ---
 
-### Security Invariants
+### Getting Started & Resources
 
-1. **Deterministic Approval Gate**: If a verified inverse cannot be constructed before execution, the agent stops immediately and escalates to human approval.
-2. **Air-Gapped Offline Verification**: Verification executes entirely in-process or in-browser (WASM) with 0 network calls.
-3. **Tri-State Verdict Architecture**: Explicitly outputs `Verified`, `Refuted`, or `Unknown/Unparseable` so parsing errors are never mislabeled as fraud.
+- **Core Repository**: [`TraceFold/tracefold`](https://github.com/TraceFold/tracefold) &mdash; Source code, architecture, and issue tracker.
+- **Interactive Browser Verifier**: [`tracefold.github.io/tracefold/verify.html`](https://tracefold.github.io/tracefold/verify.html) &mdash; Zero-network in-tab WASM receipt verification.
+- **Formal Technical Report**: [`docs/TRACEFOLD_TR.md`](https://github.com/TraceFold/tracefold/blob/main/docs/TRACEFOLD_TR.md) &mdash; Complete mathematical derivations and error taxonomies.
+- **Community Discord**: [`discord.gg/rtvXqYEQzr`](https://discord.gg/rtvXqYEQzr) &mdash; Discussion, agent security sparring, and releases.
 
 ---
 
