@@ -2,7 +2,13 @@
 
 <a href="https://github.com/TraceFold/tracefold"><img src="https://github.com/TraceFold/tracefold/releases/download/brand-assets/banner.png" alt="tracefold" width="900"></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=00DFD8&background=0B0A0900&center=true&vCenter=true&width=650&lines=Autonomous+AI+Agent+Reversibility+Substrate;Holding+the+Checked+Inverse+Before+Actions+Land;Tamper-Evident+Receipts+Verifiable+Offline" alt="TraceFold Tagline" />
+# TraceFold
+
+### Autonomous AI Agent Reversibility & Verifiable Provenance Substrate
+
+**Undo is a feature. Reversibility is a property.**
+
+The checked inverse is sealed **before actions land**. Anyone can verify the verdict afterwards, offline, without trusting whoever issued it.
 
 <p>
 <a href="https://github.com/TraceFold/tracefold"><img src="https://img.shields.io/badge/Repository-TraceFold%2Ftracefold-7928ca?style=for-the-badge&logo=github&logoColor=ffffff" alt="TraceFold Repo"></a>
@@ -15,15 +21,7 @@
 
 ---
 
-### Mission & Core Philosophy
-
-> **Undo is a feature. Reversibility is a property.**
-
-TraceFold is an open-source security substrate that seals a checked inverse **before** an autonomous AI agent's change lands. Every verdict becomes a tamper-evident cryptographic receipt verifiable offline by third parties with zero network trust.
-
----
-
-### Ecosystem & Components
+### Ecosystem Components
 
 <table width="100%">
 <tr>
@@ -52,7 +50,15 @@ TraceFold is an open-source security substrate that seals a checked inverse **be
 
 ---
 
-### Getting Started & Resources
+### Security Invariants
+
+1. **Deterministic Approval Gate**: If a verified inverse cannot be constructed before execution, the agent stops immediately and escalates to human approval.
+2. **Air-Gapped Offline Verification**: Verification executes entirely in-process or in-browser (WASM) with 0 network calls.
+3. **Tri-State Verdict Architecture**: Explicitly outputs `Verified`, `Refuted`, or `Unknown/Unparseable` so parsing errors are never mislabeled as fraud.
+
+---
+
+### Resources
 
 - **Core Repository**: [`TraceFold/tracefold`](https://github.com/TraceFold/tracefold) &mdash; Source code, architecture, and issue tracker.
 - **Interactive Browser Verifier**: [`tracefold.github.io/tracefold/verify.html`](https://tracefold.github.io/tracefold/verify.html) &mdash; Zero-network in-tab WASM receipt verification.
