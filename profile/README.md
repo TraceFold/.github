@@ -21,49 +21,31 @@ The checked inverse is sealed **before actions land**. Anyone can verify the ver
 
 ---
 
+### Target Architecture (System Context)
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/TraceFold/tracefold/main/assets/glovrex_target_architecture_vision.png" alt="Glovrex Digital World - Target Architecture Vision" width="100%">
+</div>
+
+---
+
 ### Ecosystem Components
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<h4>⚡ <a href="https://github.com/TraceFold/tracefold">TraceFold Core Engine</a></h4>
-<p>Runtime substrate in Rust. Enforces deterministic approval gates, inverse construction, and CLI tools.</p>
-<code>cargo build --workspace</code>
-</td>
-<td width="50%" valign="top">
-<h4>📦 <a href="https://www.npmjs.com/package/@mahirhir/tracefold">@mahirhir/tracefold (npm SDK)</a></h4>
-<p>Standalone TypeScript / WebAssembly offline receipt verifier. Published under Apache-2.0 on npm.</p>
-<code>npm i @mahirhir/tracefold</code>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h4>🖥️ <a href="https://github.com/TraceFold/tracefold/tree/main/gui">The Window (GUI)</a></h4>
-<p>Local-first visual inspector over execution traces, state checkpoints, and inclusion receipts.</p>
-</td>
-<td width="50%" valign="top">
-<h4>📐 <a href="https://github.com/TraceFold/tracefold/tree/main/lean">Lean 4 Formal Specifications</a></h4>
-<p>117 machine-checked algebraic theorems proving effect containment with 0 <code>sorry</code> assertions.</p>
-</td>
-</tr>
-</table>
+| Component | Responsibility | Tech Stack | Status |
+| :--- | :--- | :--- | :---: |
+| **[`TraceFold Core`](https://github.com/TraceFold/tracefold)** | Deterministic approval gate, runtime inverse engine, and CLI | Rust 1.97.1 | Core Engine |
+| **[`@mahirhir/tracefold`](https://www.npmjs.com/package/@mahirhir/tracefold)** | Air-gapped offline receipt verifier (Zero network calls) | TypeScript / WASM | Published (Apache-2.0) |
+| **[`gui/`](https://github.com/TraceFold/tracefold/tree/main/gui)** | Local-first visual inspector over execution traces and checkpoints | Desktop UI | Operational |
+| **[`lean/`](https://github.com/TraceFold/tracefold/tree/main/lean)** | 117 machine-checked algebraic proofs with 0 `sorry` assertions | Lean 4 | Formally Verified |
 
 ---
 
-### Security Invariants
+### Resources & Access
 
-1. **Deterministic Approval Gate**: If a verified inverse cannot be constructed before execution, the agent stops immediately and escalates to human approval.
-2. **Air-Gapped Offline Verification**: Verification executes entirely in-process or in-browser (WASM) with 0 network calls.
-3. **Tri-State Verdict Architecture**: Explicitly outputs `Verified`, `Refuted`, or `Unknown/Unparseable` so parsing errors are never mislabeled as fraud.
-
----
-
-### Resources
-
-- **Core Repository**: [`TraceFold/tracefold`](https://github.com/TraceFold/tracefold) &mdash; Source code, architecture, and issue tracker.
-- **Interactive Browser Verifier**: [`tracefold.github.io/tracefold/verify.html`](https://tracefold.github.io/tracefold/verify.html) &mdash; Zero-network in-tab WASM receipt verification.
-- **Formal Technical Report**: [`docs/TRACEFOLD_TR.md`](https://github.com/TraceFold/tracefold/blob/main/docs/TRACEFOLD_TR.md) &mdash; Complete mathematical derivations and error taxonomies.
-- **Community Discord**: [`discord.gg/rtvXqYEQzr`](https://discord.gg/rtvXqYEQzr) &mdash; Discussion, agent security sparring, and releases.
+- **Core Engine & CLI**: [`TraceFold/tracefold`](https://github.com/TraceFold/tracefold) &mdash; Source code, issue tracker, and discussions.
+- **Instant WASM Verifier**: [`tracefold.github.io/tracefold/verify.html`](https://tracefold.github.io/tracefold/verify.html) &mdash; Standalone in-tab verification.
+- **Formal Technical Report**: [`docs/TRACEFOLD_TR.md`](https://github.com/TraceFold/tracefold/blob/main/docs/TRACEFOLD_TR.md) &mdash; Mathematical foundation and error taxonomy.
+- **Discord Community**: [`discord.gg/rtvXqYEQzr`](https://discord.gg/rtvXqYEQzr) &mdash; Research sparring and release notes.
 
 ---
 
