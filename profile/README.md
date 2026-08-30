@@ -12,6 +12,7 @@ The checked inverse is sealed **before actions land**. Anyone can verify the ver
 
 <p>
 <a href="https://github.com/TraceFold/tracefold"><img src="https://img.shields.io/badge/Repository-TraceFold%2Ftracefold-7928ca?style=for-the-badge&logo=github&logoColor=ffffff" alt="TraceFold Repo"></a>
+<a href="https://doi.org/10.5281/zenodo.22168558"><img src="https://img.shields.io/badge/Paper-DOI%3A10.5281%2Fzenodo.22168558-00dfd8?style=for-the-badge&logo=doi&logoColor=090a0f" alt="Zenodo Paper"></a>
 <a href="https://tracefold.github.io/tracefold/verify.html"><img src="https://img.shields.io/badge/Verifier-Zero%20Network%20WASM-00dfd8?style=for-the-badge&logo=webassembly&logoColor=090a0f" alt="Browser Verifier"></a>
 <a href="mailto:mahirohirakawa@glovrex.com"><img src="https://img.shields.io/badge/Contact-mahirohirakawa%40glovrex.com-0070f3?style=for-the-badge&logo=minutemailer&logoColor=ffffff" alt="Email"></a>
 <a href="https://discord.gg/rtvXqYEQzr"><img src="https://img.shields.io/badge/Community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=ffffff" alt="Discord"></a>
@@ -43,6 +44,7 @@ The checked inverse is sealed **before actions land**. Anyone can verify the ver
 ### Resources & Contact
 
 - **Core Engine & CLI**: [`TraceFold/tracefold`](https://github.com/TraceFold/tracefold) &mdash; Source code, issue tracker, and discussions.
+- **Theoretical Foundations**: [*A Mechanical World Model for Agents* (DOI: 10.5281/zenodo.22168558)](https://doi.org/10.5281/zenodo.22168558).
 - **Instant WASM Verifier**: [`tracefold.github.io/tracefold/verify.html`](https://tracefold.github.io/tracefold/verify.html) &mdash; Standalone in-tab verification.
 - **Formal Technical Report**: [`docs/TRACEFOLD_TR.md`](https://github.com/TraceFold/tracefold/blob/main/docs/TRACEFOLD_TR.md) &mdash; Mathematical foundation and error taxonomy.
 - **Direct Research Contact**: [`mahirohirakawa@glovrex.com`](mailto:mahirohirakawa@glovrex.com) &middot; **Discord**: [`discord.gg/rtvXqYEQzr`](https://discord.gg/rtvXqYEQzr)
