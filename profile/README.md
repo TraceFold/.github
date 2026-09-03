@@ -36,8 +36,9 @@ The checked inverse is sealed **before actions land**. Anyone can verify the ver
 | :--- | :--- | :--- | :---: |
 | **[`TraceFold Core`](https://github.com/TraceFold/tracefold)** | Deterministic approval gate, runtime inverse engine, and CLI | Rust 1.97.1 | Core Engine |
 | **[`@mahirhir/tracefold`](https://www.npmjs.com/package/@mahirhir/tracefold)** | Air-gapped offline receipt verifier (Zero network calls) | TypeScript / WASM | Published (Apache-2.0) |
+| **[`tracefold` on crates.io](https://crates.io/crates/tracefold)** | The `gx` command line: `cargo install tracefold` installs one binary, `gx` | Rust | Published 0.1.2 (Apache-2.0) |
 | **[`gui/`](https://github.com/TraceFold/tracefold/tree/main/gui)** | Local-first visual inspector over execution traces and checkpoints | Desktop UI | Operational |
-| **[`lean/`](https://github.com/TraceFold/tracefold/tree/main/lean)** | 117 machine-checked algebraic proofs with 0 `sorry` assertions | Lean 4 | Formally Verified |
+| **[`lean/`](https://github.com/TraceFold/tracefold/tree/main/lean)** | 154 machine-checked theorems, 14 of them counterexamples, 1 axiom, 0 `sorry` (recounted 1 Sep 2026) | Lean 4 | Formally Verified |
 
 ---
 
